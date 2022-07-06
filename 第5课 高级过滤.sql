@@ -26,17 +26,18 @@ SELECT vend_name + ' (' + vend_country + ')' FROM Vendors ORDER BY vend_name;
 
 
 
+-- 6.1.1 百分号（%）通配符
+SELECT prod_id, prod_name FROM Products WHERE prod_name LIKE 'Fish%';
 
 
 
+SELECT prod_id, prod_name FROM Products WHERE prod_name LIKE '%bean bag%'; 
+
+SELECT prod_name FROM Products WHERE prod_name LIKE 'F%y';
 
 
-
-
-
-
-
-
+WHERE email LIKE 'b%@forta.com'
+ 
 
 
 
