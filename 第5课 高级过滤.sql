@@ -18,4 +18,29 @@ SELECT prod_name FROM products WHERE NOT vend_id = 'DLL01' ORDER BY prod_name;
 SELECT prod_name FROM products WHERE  vend_id <> 'DLL01' ORDER BY prod_name;
 
 
+SELECT vend_name + ' (' + vend_country + ')' FROM Vendors ORDER BY vend_name;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
