@@ -20,6 +20,26 @@ SELECT prod_name FROM products WHERE  vend_id <> 'DLL01' ORDER BY prod_name;
 
 SELECT vend_name + ' (' + vend_country + ')' FROM Vendors ORDER BY vend_name;
 
+SELECT vend_name, UPPER(vend_name) AS vend_name_upcase
+FROM Vendors
+ORDER BY vend_name;
+
+LEFT()（或使用子字符串函数） 返回字符串左边的字符
+LENGTH()（也使用DATALENGTH()或LEN()） 返回字符串的长度
+LOWER()（Access使用LCASE()） 将字符串转换为小写
+LTRIM() 去掉字符串左边的空格
+RIGHT()（或使用子字符串函数） 返回字符串右边的字符
+RTRIM() 去掉字符串右边的空格
+SOUNDEX() 返回字符串的SOUNDEX值
+UPPER()（Access使用UCASE()） 将字符串转换为大写
+
+
+
+
+
+
+
+
 
 
 
@@ -38,8 +58,7 @@ SELECT prod_name FROM Products WHERE prod_name LIKE 'F%y';
 
 WHERE email LIKE 'b%@forta.com'
  
-
-
+SELECT prod_id, prod_name FROM Products WHERE prod_name LIKE '__ inch teddy bear';
 
 
 
